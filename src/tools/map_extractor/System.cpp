@@ -75,7 +75,7 @@ float CONF_float_to_int16_limit = 2048.0f;   // Max accuracy = val/65536
 float CONF_flat_height_delta_limit = 0.005f; // If max - min less this value - surface is flat
 float CONF_flat_liquid_delta_limit = 0.001f; // If max - min less this value - liquid surface is flat
 
-uint32 CONF_TargetBuild = 17116;              // 5.3.0 17128
+uint32 CONF_TargetBuild = 17399;              // 5.4.0 17399
 
 // List MPQ for extract maps from
 char const* CONF_mpq_list[]=
@@ -86,11 +86,13 @@ char const* CONF_mpq_list[]=
     "wow-update-base-16309.MPQ",
     "wow-update-base-16357.MPQ",
     "wow-update-base-16516.MPQ",
-    "wow-update-base-16516.MPQ",
     "wow-update-base-16650.MPQ",
     "wow-update-base-16844.MPQ",
     "wow-update-base-16965.MPQ",
     "wow-update-base-17116.MPQ",
+    "wow-update-base-17266.MPQ",
+    "wow-update-base-17325.MPQ",
+    "wow-update-base-17345.MPQ",
     "world.MPQ",
     "misc.MPQ",
     "expansion1.MPQ",
@@ -99,7 +101,7 @@ char const* CONF_mpq_list[]=
     "expansion4.MPQ",
 };
 
-uint32 const Builds[] = {16016, 16048, 16057, 16309, 16357, 16516, 16650, 16844, 16965, 17116, 0};
+uint32 const Builds[] = {16016, 16048, 16057, 16309, 16357, 16516, 16650, 16844, 16965, 17116, 17128, 17266, 17325, 17345, 17399, 0};
 #define LAST_DBC_IN_DATA_BUILD 16016    // after this build mpqs with dbc are back to locale folder
 #define NEW_BASE_SET_BUILD  17116
 
