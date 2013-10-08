@@ -74,8 +74,6 @@ void WorldSession::SendAuthResponse(uint8 code, bool queued, uint32 queuePos)
     packet << uint8(Expansion());
     packet << uint8(Expansion());
     packet << uint8(code);
-
-    packet << uint8(0);
     
     SendPacket(&packet);
 }
